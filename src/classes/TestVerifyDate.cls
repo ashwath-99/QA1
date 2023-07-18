@@ -1,7 +1,7 @@
 @isTest
 public class TestVerifyDate {
 @isTest
-    public static void within30Days(){// this is a method syntax
+    public static void within30Days(){// method syntax
         Date dt = VerifyDate.CheckDates(Date.valueOf('1998-07-21'),Date.valueOf('1998-07-29'));
         System.assertEquals(Date.valueOf('1998-07-29'), dt);
     }
