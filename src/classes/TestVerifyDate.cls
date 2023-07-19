@@ -1,7 +1,7 @@
 @isTest
 public class TestVerifyDate {
 @isTest
-    public static void within30Days(){// method line 1
+    public static void within30Days(){// method line 2
         Date dt = VerifyDate.CheckDates(Date.valueOf('1998-07-21'),Date.valueOf('1998-07-29'));
         System.assertEquals(Date.valueOf('1998-07-29'), dt);
     }
