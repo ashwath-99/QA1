@@ -3,11 +3,11 @@ public class TestVerifyDate {
 @isTest
     public static void within30Days(){// this is a method syntax 
         Date dt = VerifyDate.CheckDates(Date.valueOf('1998-07-21'),Date.valueOf('1998-07-29'));
-        System.assertEquals(Date.valueOf('1998-07-29'), dt);
+        System.assertEquals(Date.valueOf('1998-07-29'), dt); // this is a print statement 1
     }
     @isTest
     public static void otherThan30Days(){
         Date dt = VerifyDate.CheckDates(Date.valueOf('2023-05-20'),Date.valueOf('2023-06-25'));
-        System.assertEquals(Date.valueOf('2023-05-31'), dt);
+        System.assertEquals(Date.valueOf('2023-05-31'), dt); // this is a print statement 2
     }
 }
